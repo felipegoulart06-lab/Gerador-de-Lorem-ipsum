@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador Lorem Ipsum Sofisticado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container-principal">
+    <header class="header">
+        <h1>Gerador Lorem Ipsum Sofisticado</h1>
+    </header>
+
+    <div class="controls-area">
+        <div class="input-group">
+            <label for="paragrafos">Quantidade de Parágrafos:</label>
+            <input type="number" id="paragrafos" min="1" max="50" value="5">
+        </div>
+
+        <button id="btn-gerar" class="btn-laranja-neon">Gerar Texto</button>
+    </div>
+    
+    <div class="output-area">
+        <textarea id="output-text" rows="10" placeholder="Seu texto Lorem Ipsum será gerado aqui..."></textarea>
+        <button id="btn-copiar" class="btn-copiar-neon" disabled>Copiar Texto</button>
+    </div>
+
+    <div id="status-message" class="status-message">Ajuste o número de parágrafos e gere o texto.</div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
